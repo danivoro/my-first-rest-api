@@ -6,7 +6,7 @@ const { v4: uuid } = require("uuid");
 
 const app = express();
 
-app.get("/outfit", (req, res) => {
+app.get("/music", (req, res) => {
     const type = ['Slow', 'Hard', 'Melodic'];
     const decade = ['60\'s', '70\'s', '80\'s'];
     const genre = ['Rock', 'Blues', 'Jazz'];
